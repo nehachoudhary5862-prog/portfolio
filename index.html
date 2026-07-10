@@ -1832,8 +1832,7 @@
         <div class="proj-actions">
           <button class="proj-btn" onclick="event.stopPropagation();${p.live !== '#' ? `window.open('${p.live}','_blank')` : `alert('Live demo coming soon!')`}" style="color:${p.color};border-color:${p.color}40">🔗 Live Demo</button>
          <button class="proj-btn" onclick="event.stopPropagation();window.open('${p.github}','_blank')" style="color:#10B981;border-color:#10B98140">🐙 GitHub</button>
-          <button class="proj-btn" onclick="event.stopPropagation();openModal(${p.id})" style="color:#FBBF24;border-color:#FBBF2440">📄 Case Study</button>
-          <button class="proj-btn" onclick="event.stopPropagation();openModal(${p.id})">👁 Details</button>
+          
         </div>
       </div>
     </div>`).join('');
